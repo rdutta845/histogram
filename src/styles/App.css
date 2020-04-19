@@ -6,9 +6,15 @@ th, td{
     padding: 10px;
     position: relative;
 }
+thead tr{
+    border-bottom: 2px solid;
+}
 thead tr th:not(:last-child), tbody tr td:not(:last-child){
     border-right: 1px solid grey;
 }
+tbody tr:nth-child(odd){
+    background-color: #e6e6e6;
+}   
 .link{
     color: #e65b0a;
     text-decoration: none;
