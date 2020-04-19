@@ -4,7 +4,8 @@
   "description": "histogram project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --watch --open hot",
+    "start:dev": "webpack-dev-server --mode development --watch --open hot",
+    "start": "node server.js",
     "build": "webpack --mode production",
     "test": "none"
   },
@@ -42,6 +43,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "d3": "^5.15.1",
     "d3-scale": "^3.2.1",
     "react": "^16.12.0",
