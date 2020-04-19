@@ -1,0 +1,51 @@
+{
+  "name": "histogram",
+  "version": "1.0.0",
+  "description": "histogram project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --watch --open hot",
+    "build": "webpack --mode production",
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdutta845/histogram.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "js",
+    "html",
+    "css",
+    "histogram"
+  ],
+  "author": "Rahul Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdutta845/histogram/issues"
+  },
+  "homepage": "https://github.com/rdutta845/histogram#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "d3": "^5.15.1",
+    "d3-scale": "^3.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  }
+}
